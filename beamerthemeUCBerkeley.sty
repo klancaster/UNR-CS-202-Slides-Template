@@ -71,13 +71,13 @@ tabsize=2
 \setlength{\leftmarginiii}{1em}
 
 % \pgfdeclareimage[width=1.01\paperwidth]{blueslope}{blueslope}
-\pgfdeclareimage[height=0.1\paperheight]{logo}{university_logo.png}
+\pgfdeclareimage[height=0.08\paperheight]{logo}{university_logo.png}
 
 \setbeamertemplate{background}{%
 \begin{tikzpicture}[overlay,remember picture]
-  \fill[BerkeleyBlue] (current page.south west) -- +(0, 0.18\paperheight) -- +(\paperwidth, 0.08\paperheight) -- (current page.south east) -- cycle;  
+  \fill[BerkeleyBlue] (current page.south west) -- +(0, 0.13\paperheight) -- +(\paperwidth, 0.00\paperheight) -- (current page.south east) -- cycle;  
 % \node[anchor=south west,inner sep=0pt,draw=none,yshift=-6pt,xshift=-1pt] at (current page.south west) {\pgfuseimage{blueslope}};%
-\node[anchor=south west,inner sep=0pt,draw=none,xshift=0.040\paperheight,yshift=0.04\paperheight] at (current page.south west) {\pgfuseimage{logo}};%
+\node[anchor=south west,inner sep=0pt,draw=none,xshift=0.030\paperheight,yshift=0.02\paperheight] at (current page.south west) {\pgfuseimage{logo}};%
 \end{tikzpicture}%
 }
 
